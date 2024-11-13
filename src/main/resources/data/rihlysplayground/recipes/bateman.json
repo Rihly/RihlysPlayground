@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "rihlysplayground:bateman_block"
+    }
+  ],
+  "result": {
+    "item": "rihlysplayground:bateman",
+    "count": 9
+  }
+}
