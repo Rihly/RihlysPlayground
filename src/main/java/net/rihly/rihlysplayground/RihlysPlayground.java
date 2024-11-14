@@ -1,7 +1,6 @@
 package net.rihly.rihlysplayground;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -15,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rihly.rihlysplayground.block.ModBlocks;
 import net.rihly.rihlysplayground.item.ModCreativeModeTabs;
 import net.rihly.rihlysplayground.item.ModItems;
+import net.rihly.rihlysplayground.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +33,7 @@ public class RihlysPlayground {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModSounds.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

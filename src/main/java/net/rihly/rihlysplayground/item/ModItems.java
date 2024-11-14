@@ -6,8 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rihly.rihlysplayground.RihlysPlayground;
-
-import javax.swing.*;
+import net.rihly.rihlysplayground.item.custom.HomelanderItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -18,7 +17,7 @@ public class ModItems {
     public static final RegistryObject<Item> BATEMAN = ITEMS.register("bateman",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HOMELANDER = ITEMS.register("homelander",
-            () -> new Item(new Item.Properties()));
+            () -> new HomelanderItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
