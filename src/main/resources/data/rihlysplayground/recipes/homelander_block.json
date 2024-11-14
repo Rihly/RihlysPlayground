@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rihlysplayground:homelander"
+    }
+  },
+  "result": {
+    "item": "rihlysplayground:homelander_block",
+    "count": 1
+  }
+}

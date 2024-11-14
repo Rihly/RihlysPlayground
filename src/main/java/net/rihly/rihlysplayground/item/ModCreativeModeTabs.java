@@ -21,8 +21,10 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.JONKLER.get());
                         pOutput.accept(ModItems.BATEMAN.get());
+                        pOutput.accept(ModItems.HOMELANDER.get());
                         pOutput.accept(ModBlocks.JONKLER_BLOCK.get());
                         pOutput.accept(ModBlocks.BATEMAN_BLOCK.get());
+                        pOutput.accept(ModBlocks.HOMELANDER_BLOCK.get());
                     })
                     .build());
 
