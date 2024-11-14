@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "rihlysplayground:homelander_block"
+    }
+  ],
+  "result": {
+    "item": "rihlysplayground:homelander",
+    "count": 9
+  }
+}

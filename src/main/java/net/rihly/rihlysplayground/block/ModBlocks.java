@@ -27,6 +27,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BATEMAN_BLOCK = registerBlock("bateman_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TNT).sound(SoundType.AMETHYST)
                     .strength(0.5f)));
+    public static final RegistryObject<Block> HOMELANDER_BLOCK = registerBlock("homelander_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TNT).sound(SoundType.ANVIL)
+                    .strength(0.5f)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

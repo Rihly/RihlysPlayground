@@ -1,8 +1,10 @@
 {
   "item.rihlysplayground.jonkler": "Jonkler",
   "item.rihlysplayground.bateman": "Bateman",
+  "item.rihlysplayground.homelander": "Homelander",
   "block.rihlysplayground.jonkler_block": "Jonkler Block",
   "block.rihlysplayground.bateman_block": "Bateman Block",
+  "block.rihlysplayground.homelander_block": "Homelander Block",
 
   "creativetab.rihlys_tab" : "Rihly's Playground"
 }
