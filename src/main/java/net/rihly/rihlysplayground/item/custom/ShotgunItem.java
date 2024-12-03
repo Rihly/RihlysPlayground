@@ -17,7 +17,7 @@ public class ShotgunItem extends Item{
     @Override
     public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level pLevel, @NotNull Player pPlayer, @NotNull InteractionHand pUsedHand) {
         for (int count = 0; count < 20; count++) {
-            ShotgunBullet bullet = new ShotgunBullet(pLevel, pPlayer, 0, 0, 0, 5, 60);
+            ShotgunBullet bullet = new ShotgunBullet(pLevel, pPlayer, 0, 0, 0, 2, 60);
             bullet.shootFromRotation(pPlayer, pPlayer.getXRot(), pPlayer.getYRot(), 0, 5, 20);
             pLevel.addFreshEntity(bullet);
         }
